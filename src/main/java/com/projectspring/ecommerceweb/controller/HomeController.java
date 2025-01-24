@@ -8,7 +8,14 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Home.jsp"; // This will map to /WEB-INF/jsp/home.jsp
+        return "Home.jsp"; 
+        
+        /*
+         This will map to /WEB-INF/jsp/home.jsp
+         */
+         
     }
+    
+    
     
 }

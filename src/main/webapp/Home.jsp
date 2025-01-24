@@ -5,21 +5,45 @@
 <head>
 <meta charset="UTF-8">
 <title>HomePage</title>
+<style>
+	*{
+		background-color: whitesmoke;
+	}
+	ul{
+		width: 100%;
+		height: fit-content;
+		display:flex;
+		padding : 4px 4px 4px 4px;
+		
+	}
+	
+	#headerDiv{
+		width: 100%;
+		height: fit-content;
+		display : flex;
+	}
+	
+	li{
+		padding-left : 4px;
+		font-size: 21px;
+		font-family: serena;
+	}
+</style>
 </head>
 <body>
-	<div>
+	<div id="headerDiv">
 		<ul>
-			<li><a>Home</a></li>
-			<li><a>Posts</a></li>
-			<li><a>Blogs</a></li>
-			<li><a>News</a></li>
-			<li><a>About Us</a></li>
-			<li><a>Contact Us</a></li>
-			<li><a></a></li>
+			<li type="none"><a href="#">Home</a></li>
+			<li type="none"><a href="#">Posts</a></li>
+			<li type="none"><a href="#">Blogs</a></li>
+			<li type="none"><a href="#">News</a></li>
+			<li type="none"><a href="#">About Us</a></li>
+			<li type="none"><a href="#">Contact Us</a></li>
+			<li type="none"><a href="#"></a></li>
 		</ul>
 		<ul>
-			<li><a></a></li>
-			<li><a></a></li>
+			<li type="none"><a href="./Login.jsp">Sign In</a></li>
+			<li type="none"><a href="./Register.jsp">Register</a></li>
 		</ul>
 	</div>
 </body>
