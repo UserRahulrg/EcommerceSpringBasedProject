@@ -9,19 +9,36 @@
 	*{
 		background-color: whitesmoke;
 	}
+	
+	form{
+		width: 100%;
+		height: 40%;
+	}
+	
+	ul label{
+		width: 25%;
+		height: fit-content;
+	}
+	
+	ul input{
+		width: 180px;
+		height: fit-content;
+	}
+	
 </style>
 </head>
 <body>
 		<h2>LoginPage</h2>
-		<form>
+		<form border="2px">
 		<ul>
 			<label>Username/Email: </label>
-			<input><br><br>
-			
-			<label>Password: </label>
-			<input><br><br>
-			<button>Submit</button>
+			<input placeholder="Enter Email/Username"><br><br>
 		</ul>
+		<ul>
+			<label>Password: </label>
+			<input placeholder="Enter Password" type="password"><br><br>
+		</ul>
+		<button>Submit</button>
 	</form>
 </body>
 </html>
