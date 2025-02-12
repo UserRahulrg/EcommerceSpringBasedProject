@@ -16,6 +16,19 @@ public class HomeController {
          
     }
     
+    @RequestMapping("/")
+    public String defaultPage() {
+    	
+    	System.out.println("DefaultPage");
+    	
+        return "Home.jsp"; 
+        
+        /*
+         This will map to /WEB-INF/jsp/home.jsp
+         */
+         
+    }
+    
     @RequestMapping("/login2")
     public String login() {
     	

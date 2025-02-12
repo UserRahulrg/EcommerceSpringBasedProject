@@ -9,7 +9,7 @@ public class LoginController {
 	@RequestMapping("/login")
 	public String Login() {
 		
-		System.out.println("User Logged In!!");
+		System.out.println("User successfully Logged In!!");
 		
 		return "Login.jsp";
 	}

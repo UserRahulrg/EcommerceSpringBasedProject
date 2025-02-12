@@ -11,6 +11,6 @@ public class IndexController {
 		
 		System.out.println("IndexPage");
 		
-		return "IndexPage";
+		return "Index.jsp";
 	}
 }
