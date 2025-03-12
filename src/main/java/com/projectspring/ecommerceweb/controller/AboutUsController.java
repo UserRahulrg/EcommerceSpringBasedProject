@@ -10,6 +10,6 @@ public class AboutUsController {
 	public static String aboutUsController() {
 		
 		System.out.println("This is aboutUs Page!!");
-		return "aboutUs.jsp";
+		return "aboutUs.jsp";   //This will add aboutUs.jsp and configure to /aboutUs when requested
 	}
 }

@@ -9,8 +9,8 @@ public class IndexController {
 	@RequestMapping(value="/index")
 	public String Index() {
 		
-		System.out.println("IndexPage");
+		System.out.println("IndexPage"); 
 		
-		return "Index.jsp";
+		return "Index.jsp";		//This will configure Index.jsp, when requested on /login2
 	}
 }
