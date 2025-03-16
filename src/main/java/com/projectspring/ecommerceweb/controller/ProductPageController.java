@@ -10,6 +10,6 @@ public class ProductPageController {
 	public static String productPageController() {
 		
 		System.out.println("Product Saved!!");
-		return "Product.jsp";
+		return "Product.jsp";	//This will configure Product.jsp to /product url
 	}
 }

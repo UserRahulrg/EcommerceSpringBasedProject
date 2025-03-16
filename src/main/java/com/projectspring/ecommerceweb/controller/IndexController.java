@@ -11,6 +11,6 @@ public class IndexController {
 		
 		System.out.println("IndexPage"); 
 		
-		return "Index.jsp";		//This will configure Index.jsp, when requested on /login2
+		return "Index.jsp";		//This will configure Index.jsp, when requested on /login2 url
 	}
 }

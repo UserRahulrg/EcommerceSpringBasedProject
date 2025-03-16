@@ -9,7 +9,7 @@ public class SignInController {
 	@RequestMapping("/signIn")
 	public String SignInController() {
 		
-		return "Login.jsp";
+		return "Login.jsp";	//This will configure Login.jsp to /signIn url
 	}
 	
 	

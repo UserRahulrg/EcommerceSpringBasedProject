@@ -9,6 +9,6 @@ public class RegisterController {
 	@RequestMapping("/register")
 	public String RegisterController() {
 		
-		return "Register.jsp";
+		return "Register.jsp"; //This will configure Register.jsp to /register url
 	}
 }
